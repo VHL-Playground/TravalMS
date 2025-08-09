@@ -55,30 +55,6 @@
 * **缓存**: Redis - 用于缓存热点数据，如车次信息、用户信息
 * **部署**: Docker / Kubernetes - 实现容器化部署和弹性伸缩
 
-### 🚀 快速开始
-
-> **注意**: 项目正处于规划阶段，以下为未来实现后的操作指南。
-
-1.  **克隆仓库**
-    ```bash
-    git clone [https://github.com/your-username/travel-companion.git](https://github.com/your-username/travel-companion.git)
-    cd travel-companion
-    ```
-
-2.  **安装依赖 (以 Python 后端为例)**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **配置环境**
-    * 复制 `.env.example` 文件为 `.env`
-    * 在 `.env` 文件中填写你的数据库连接信息及其他密钥
-
-4.  **运行项目**
-    ```bash
-    uvicorn main:app --reload
-    ```
-
 ### 🗺️ 项目路线图
 
 -   [ ] **Q4 2025**: 完成核心后端 API 开发及数据库设计。
@@ -86,20 +62,6 @@
 -   [ ] **Q2 2026**: 集成首个国家/地区的铁路数据API。
 -   [ ] **Q3 2026**: 开发移动端 App。
 -   [ ] **长期**: 引入 AI 智能推荐、社交分享、离线模式等高级功能。
-
-### 🤝 如何贡献
-
-我们热烈欢迎任何形式的贡献！无论是代码、文档、设计还是测试，都对我们至关重要。
-
-1.  Fork 本仓库
-2.  创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3.  提交你的修改 (`git commit -m 'Add some AmazingFeature'`)
-4.  推送到分支 (`git push origin feature/AmazingFeature`)
-5.  提交一个 Pull Request
-
-### ⚖️ 开源协议
-
-本项⽬采⽤ [MIT license](https://opensource.org/licenses/MIT) 开源协议。
 
 ---
 
@@ -137,30 +99,6 @@
 * **Cache**: Redis - To cache hot data like train schedules and user information
 * **Deployment**: Docker / Kubernetes - For containerized deployment and scaling
 
-### 🚀 Getting Started
-
-> **Note**: This project is currently in the planning phase. The following instructions are a guideline for when it is implemented.
-
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/your-username/travel-companion.git](https://github.com/your-username/travel-companion.git)
-    cd travel-companion
-    ```
-
-2.  **Install dependencies (example for Python backend)**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Configure your environment**
-    * Copy `.env.example` to `.env`
-    * Fill in your database connection details and other secrets in the `.env` file
-
-4.  **Run the project**
-    ```bash
-    uvicorn main:app --reload
-    ```
-
 ### 🗺️ Roadmap
 
 -   [ ] **Q4 2025**: Complete core backend API development and database design.
@@ -168,17 +106,3 @@
 -   [ ] **Q2 2026**: Integrate the first national/regional railway data API.
 -   [ ] **Q3 2026**: Develop the mobile application.
 -   [ ] **Long-term**: Introduce advanced features like AI-powered recommendations, social sharing, and offline mode.
-
-### 🤝 Contributing
-
-Contributions of any kind are welcome! Whether it's code, documentation, design, or testing, your help is invaluable.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-### ⚖️ License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
